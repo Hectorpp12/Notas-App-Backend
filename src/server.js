@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://polite-zabaione-3f8a24.netlify.app"]
+    origin: ["http://localhost:5173", "https://notas-app-hectorsanchezrosario.netlify.app"]
 }))
 
 app.use(express.json());
